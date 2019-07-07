@@ -29,7 +29,7 @@ $ docker-compose run --rm app rails new . --database=postgresql --skip-git --ski
 # After `rails new`, you need to replace 'config/database.yml'
 $ cp database.yml.sample config/database.yml
 
-# Add 'rspec-rails' gem to Gemfile and run 'bundle install'
+# Add 'rspec-rails' 'rails-controller-testing' 'factory_bot_rails' gem to Gemfile and run 'bundle install'
 $ vim Gemfile
 $ docker-compose run --rm app bundle install
 
