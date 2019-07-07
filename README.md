@@ -14,7 +14,7 @@ $ docker pull postgres:11.3
 ```
 
 ```shell
-$ git clone https://github.com/shifumin/docker_rails_heroku
+$ git clone https://github.com/rotelstift/docker_rails_heroku
 $ cd docker_rails_heroku
 ```
 
