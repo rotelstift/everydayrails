@@ -15,7 +15,8 @@ RUN apk update && \
         libffi-dev \
         postgresql-dev \
         tzdata \
-        npm
+        npm \
+        sqlite-dev
 
 RUN gem install bundler --no-document && \
     gem update --system
