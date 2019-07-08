@@ -28,5 +28,5 @@ RUN bundle install --jobs=4 --no-cache
 COPY . .
 
 EXPOSE 3000
-CMD rm -f /app/tmp/pids/server.pid && rails s -b '0.0.0.0'
+CMD rm -f tmp/pids/server.pid && rails s -b '0.0.0.0'
 #CMD ["rails", "s", "-b", "0.0.0.0"]
